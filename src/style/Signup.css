@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    background-color: rgb(231, 236, 236);
+  }
+  
+  .outer_row1 {
+    background-color: rgb(231, 236, 236);
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .outer_row2 {
+    background-color: rgb(231, 236, 236);
+    height: 50vh;
+    width: 100%;
+  }
+  .outer_row2 {
+    margin-top: 160px;
+    background-color: white;
+    height: 75vh;
+    width: 75%;
+  
+    border-radius: 15px;
+    max-width: 400px;
+  }
+  .outer_row2_inner1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .outer_row2_inner1 img {
+    margin-top: 10px;
+    height: 35px;
+  }
+  .outer_row2_inner1 label {
+    margin-top: -3px;
+  }
+ 
+  .outer_row2_inner2 {
+
+    margin-top: 5px;
+    margin-left: 40px;
+  }
+  .outer_row2_inner2 label {
+    font-family: "Times New Roman", Times, serif;
+    font-size: small;
+    padding-top: -10px;
+  }
+  .outer_row2_inner3,
+  .outer_row2_inner4,
+  .outer_row2_inner5,
+  .outer_row2_inner6,
+  .outer_row2_inner7,
+  .outer_row2_inner8 {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .outer_row2_inner3 {
+    width: 77%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .outer_row2_inner3 input {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 40%;
+    padding: 9px;
+    outline: none;
+  }
+  .outer_row2_inner4 input,
+  .outer_row2_inner5 input,
+  .outer_row2_inner6 input,
+  .outer_row2_inner8 input {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 85%;
+    padding: 9px;
+    outline: none;
+  }
+  .outer_row2_inner7 {
+   
+    font-size: small;
+  }
+  .outer_row2_inner7 input {
+    margin-top: -5px;
+  }
+  .outer_row2_inner7 label {
+    font-size: 13px;
+    margin-left: 5px;
+    font-weight: 200px;
+  }
+  .Terms_Text {
+    color: blueviolet;
+    padding-left: 20px;
+  }
+  
+  .outer_row2_inner8 button {
+    width: 90%;
+    padding: 7px;
+    outline: none;
+    border: none;
+    border-radius: 9px;
+    background-color: blueviolet;
+    color: white;
+
+  }
