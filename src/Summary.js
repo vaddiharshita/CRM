@@ -2,13 +2,13 @@ import React from "react";
 import "./Summary.css";
 import { BsThreeDotsVertical } from "react-icons/bs";
 
-export default function Summary({ user1 , user2, user3, user4, name1 }) {
+export default function Summary({ title, user1, user2, user3, user4, name1, name2, name3, name4 }) {
 
     return (
         <>
             <div className="summary">
                 <div className="summary_row1">
-                    <label>SalesPersonwise Success Rate</label>
+                    <label>{title}</label>
                     <BsThreeDotsVertical className="icon" />
                 </div>
                 <div className="summary_row">
@@ -30,14 +30,14 @@ export default function Summary({ user1 , user2, user3, user4, name1 }) {
                         <label className="summary_value">{user4}</label>
                         <label className="summary_single_title">{name4}</label>
                     </div>
-                   // {/* <div className="summary_single">
-                      //  <label>{user5}</label>
-                      //  <label className="summary_value">SalesPerson Five</label>
-                   // </div> */}
-                   // {/* <div className="summary_single">
-                      //  <label>2</label>
-                       // <label className="summary_value">SalesPerson Five</label>
-                    //</div> */}
+                    {/* <div className="summary_single">
+                        <label>{user5}</label>
+                        <label className="summary_value">SalesPerson Five</label>
+                    </div> */}
+                    {/* <div className="summary_single">
+                        <label>2</label>
+                        <label className="summary_value">SalesPerson Five</label>
+                    </div> */}
                 </div>
             </div>
         </>
